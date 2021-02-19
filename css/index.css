@@ -1,0 +1,16 @@
+header {
+	background: black;
+	padding-bottom: 10px;
+}
+
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.titulo {
+	font-size: 50px;
+	position: relative;
+	color: white;
+}
