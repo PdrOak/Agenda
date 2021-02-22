@@ -3,6 +3,10 @@ header {
 	padding-bottom: 10px;
 }
 
+section {
+	padding-top: 10px;
+}
+
 .container{
 	text-align: center;
 	font-size: 2em;
@@ -17,5 +21,16 @@ header {
 
 
 .nav {
-	
+	padding: 5px 5px;
+	margin: 10px 10px 10px;
+}
+
+.botao-principal {
+	text-decoration: none;
+	color: black;
+	border: solid;
+	border-color: black;
+	padding: 3px 3px;
+	border-radius: 10px;
+	background: #BEBEBE;
 }
