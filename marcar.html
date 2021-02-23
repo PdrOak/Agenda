@@ -11,25 +11,33 @@
 		
 		<header>
 			<div class="container">
-				<h1 class="titulo">Agenda</h1>
+				<h1 class="titulo">
+					<a href="index.html">Agenda</a>
+				</h1>
 			</div>
 		</header>
 
 		<main>
-			<div class="container">
+			<section class="container">
 				<h2>Escolha a data e a hora</h2>
-				<div>
-					<label for="data">Escolha o dia:</label>
-					<input id="data" type="date">
-				</div>
+				<form id="marcandoHorario">
+					<div>
+						<label for="nome">Digite seu nome:</label>
+						<input id="nome" type="name" name="nome">
+					</div>
+					<div>
+						<label for="data">Escolha o dia:</label>
+						<input id="data" type="date" name="data">
+					</div>
 
-				<div>
-					<label for="hora">Escolha a hora:</label>
-					<input id="hora" type="time">
-				</div>
-				<button id="marcarHorario">Marcar</button>
-			</div>
+					<div>
+						<label for="hora">Escolha a hora:</label>
+						<input id="hora" type="time" name="hora">
+					</div>
+					<button id="botaoMarcaHorario">Marcar</button>
+				</form>
+			</section>
 		</main>
-	<script src="js/principal.js"></script>		
+	<script src="js/marcar.js"></script>		
 	</body>
 </html>
